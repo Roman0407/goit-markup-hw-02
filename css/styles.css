@@ -51,7 +51,6 @@ color:var(--primary-text-color);
 
 .link {
 color:var(--primary-text-color);
-font-family:Roboto, sans-serif;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.2;
@@ -122,6 +121,9 @@ letter-spacing: 0.06em;
     cursor: pointer;
   }
 
+  .main-button{
+    font-family:roboto, sans-serif;
+  }
 /* Детали */
 
 .feature-list.title {
@@ -133,9 +135,17 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
+.title {
+color:var(--primary-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
 .text{
 color:var(--title-text-color);
-font-weight: 400;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -172,7 +182,6 @@ letter-spacing: 0.03em;
 
 .job-title {
 color:var(--title-text-color);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.03em;
@@ -210,14 +219,14 @@ color:var(--white-text-color);
 
 .address-title{
 color:var(--white-text-color); 
-font-weight: 400;
+font-style: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
 }
 .footer{
 color:var(--footer-text-color);
-font-weight: 400;
+font-style: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
